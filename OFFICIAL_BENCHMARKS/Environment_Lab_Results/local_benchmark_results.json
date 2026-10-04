@@ -1,0 +1,16 @@
+{
+  "project": "L_COWAGENT",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 24,
+  "bandit_medium": 132,
+  "bandit_status": "fail",
+  "radon_cc_grade": "3.4913395638629283",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 1155,
+  "total_files": 2581,
+  "python_loc": 46236,
+  "elapsed_s": 77.98
+}

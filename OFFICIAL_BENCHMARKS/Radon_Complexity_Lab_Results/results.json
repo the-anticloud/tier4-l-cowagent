@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_COWAGENT",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.575
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.575,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM\\camel\\generators.py\n    C 156:0 RoleNameGenerator - A (5)\n    M 172:4 RoleNameGenerator.__init__ - A (5)\n    M 34:4 SystemMessageGenerator.__init__ - A (4)\n    C 21:0 SystemMessageGenerator - A (3)\n    M 125:4 SystemMessageGenerator.from_dicts - A (3)\n    M 198:4 RoleNameGenerator.from_role_files - A (3)\n    C 210:0 AISocietyTaskPromptGenerator - A (3)\n    C 285:0 SingleTxtGenerator - A (3)\n    C 312:0 CodeTaskPromptGenerator - A (3)\n    M 330:4 CodeTaskPromptGenerator.from_role_files - A (3)\n    M 85:4 SystemMessageGenerator.validate_meta_dict_keys - A (2)\n    M 231:4 AISocietyTaskPromptGenerator.from_role_files - A (2)\n    M 262:4 AISocietyTaskPromptGenerator.from_role_generator - A (2)\n    M 292:4 SingleTxtGenerator.__init__ - A (2)\n    M 302:4 SingleTxtGenerator.from_role_files - A (2)\n    M 98:4 SystemMessageGenerator.from_dict - A (1)\n    M 218:4 AISocietyTaskPromptGenerator.__init__ - A (1)\n    M 320:4 CodeTaskPromptGenerator.__init__ - A (1)\n    M 362:4 CodeTaskPromptGenerator.from_role_generator - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM\\camel\\human.py\n    C 23:0 Human - A (3)\n    M 53:4 Human.display_options - A (3)\n    M 77:4 Human.get_input - A (3)\n    M 97:4 Human.parse_input - A (3)\n    M 42:4 Human.__init__ - A (1)\n    M 115:4 Human.reduce_step - A (1)\n    M 140:4 Human.clone - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_CO",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM\\camel\\generators.py - A (65.56)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM\\camel\\human.py - A (72.76)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM\\camel\\logger.py - A (72.37)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM\\camel\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGEN"
+  }
+}
